@@ -56,7 +56,9 @@
           <h1 class="front-item-description">
             Efektywne rozwiązania dla waszego biznesu
           </h1>
-          <button class="front-service">Zamów usługę</button>
+          <button type="button" class="front-service" data-modal-open>
+            Zamów usługę
+          </button>
         </div>
       </div>
       <section class="section">
@@ -359,5 +361,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
