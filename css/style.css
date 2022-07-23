@@ -17,6 +17,7 @@
   --alpha-less-grey-color: rgba(0, 0, 0, 0.08);
   --active-icon: #afb1b8;
   --footer-background-icon: rgba(255, 255, 255, 0.1);
+  --profession-name-background: rgba(47, 48, 58, 0.8);
 }
 * {
   margin: 0;
@@ -195,6 +196,31 @@ body {
 .profession {
   display: flex;
   justify-content: space-between;
+}
+.profession-box {
+  position: relative;
+  width: 370px;
+  height: 294px;
+}
+.profession-name {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  top: 224px;
+  text-transform: uppercase;
+  z-index: 1;
+  color: var(--white-color);
+  padding-top: 27px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background: var(--profession-name-background);
+}
+.profession-img {
+  position: absolute;
+  z-index: 0;
 }
 .team {
   background-color: var(--team-background-color);
