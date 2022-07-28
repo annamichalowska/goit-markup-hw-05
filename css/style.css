@@ -113,6 +113,7 @@ body {
 .header-address-description:hover,
 .header-address-description:focus {
   color: var(--blue-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-address .icon {
   fill: currentColor;
@@ -297,6 +298,7 @@ body {
 .team-icon-background:focus {
   background-color: var(--blue-color);
   cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-media {
   fill: var(--active-icon);
@@ -307,6 +309,7 @@ body {
 .team-icon-background:focus .icon-media {
   fill: var(--white-color);
   cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon .icon:last-child {
   margin-right: 0;
@@ -333,11 +336,13 @@ body {
 .clients-icon-background:focus {
   border: 1px solid var(--blue-color);
   cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon-background:hover .clients-icon,
 .clients-icon-background:focus .clients-icon {
   fill: var(--blue-color);
   cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon {
   fill: var(--active-icon);
@@ -383,6 +388,7 @@ body {
   box-shadow: 0px 3px 1px var(--alpha-less-black-color),
     0px 1px 2px var(--alpha-less-grey-color),
     0px 2px 2px var(--alpha-almost-grey-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-items {
   display: flex;
@@ -408,6 +414,7 @@ body {
     0px 1px 2px var(--alpha-less-grey-color),
     0px 2px 2px var(--alpha-almost-grey-color);
   cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-examples {
   list-style-type: none;
@@ -433,6 +440,7 @@ body {
 }
 .portfolio-blocks:hover .portfolio-examples-animation {
   transform: translateY(0);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-examples-animation {
   position: absolute;
@@ -494,10 +502,12 @@ body {
 .email:focus,
 .email:hover {
   color: var(--blue-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .phone:focus,
 .phone:hover {
   color: var(--blue-color);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-block-icons {
   margin-left: 70px;
@@ -525,6 +535,7 @@ body {
 .footer-icon-background:focus {
   background-color: var(--blue-color);
   cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-link {
   text-decoration: none;
